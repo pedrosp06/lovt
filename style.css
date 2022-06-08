@@ -226,8 +226,9 @@ footer{
     border: 0;
 }
 .footer-info{    
-    display: block;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
     padding-left: 12%;
     padding-right: 12%;
